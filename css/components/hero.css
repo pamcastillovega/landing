@@ -1,0 +1,36 @@
+/* Hero Banner */
+
+.banner {
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner .content {
+  width: 60%;
+  margin: auto;
+}
+
+.banner .content h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.banner .content p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 70%;
+}
+
+.banner .content .btn_cta {
+  display: inline-block;
+  background-color: #1CDD87;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 15px 30px;
+}

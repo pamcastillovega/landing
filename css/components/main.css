@@ -1,0 +1,41 @@
+/* Main */
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.main h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.main .card-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .card-container .card {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgb(230 230 230);
+}
+
+.main .card-container .card h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.main .card-container .card p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+.main .card-container .card img {
+  height: 100px;
+}
